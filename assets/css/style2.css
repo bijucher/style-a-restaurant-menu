@@ -6,7 +6,7 @@
 */
 body {
     font: 14px;
-    font-family: ( url('https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald'));
+    font-family:"Oswald";
 }
 
 nav {font-family: sans-serif; font-size: 10px;}
@@ -19,7 +19,9 @@ nav {font-family: sans-serif; font-size: 10px;}
         - use a lighter weight font
 */
 h1 {
-    font:46px lighter Bungee-inline;
+    font-size: 46px;
+    font-family: "Bungee Inline";
+    font-weight: lighter;
 }
 
 #menu {columns: 420px 2; column-gap: 60px;}
@@ -65,6 +67,11 @@ footer {text-align: right;}
     Add a CSS ruleset targeting the starters and desserts sections to accomplish the following:
     - draw a 2px black border around the sections
 */
-h2{
-    border:2px,black;
+
+#starters {
+    border: 2px solid black;
+}
+
+#desserts {
+    border:2px solid black;
 }
