@@ -8,8 +8,8 @@
 body {
     font-family: Lato;
     font-size: 18px;
-    background-image: url(../images/map-bg.jpg)
- ; }
+    background-image: url(../images/map-bg.jpg); 
+}
     nav {font-family:sans-serif;
     font-size: 10px;
 }
@@ -39,7 +39,14 @@ h1 {
 #menu {
     columns: 400px;
     column-gap: 100px;
+<<<<<<< HEAD
     column-rule: dashed rosybrown;
+=======
+    column-rule-style: dashed;
+    column-rule-width: 2px;
+    column-rule-color: rosybrown;
+
+>>>>>>> 14693ee6640bc1492a7c52bcd6a466a69a28e513
 }
 
 section {padding-bottom: 50px;}
@@ -52,15 +59,23 @@ h2 {font-variant: small-caps;
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
+<<<<<<< HEAD
 dt{
     font-weight:bold;
+=======
+menu {
+        font-variant-caps: small-caps;
+           color: #6d4c41;
+>>>>>>> 14693ee6640bc1492a7c52bcd6a466a69a28e513
 }
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
         - Set the font size to 20px
         - Make the font bold
 */
-#menu {font-size: 20px bold;}
+#menu {font-size: 20px; 
+    font-weight: bold;
+}
 
 dd {
     margin: 0 0 12px 0; display: flex;}

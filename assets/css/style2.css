@@ -24,16 +24,25 @@ h1 {
     font-weight: lighter;
 }
 
-#menu {columns: 420px 2; column-gap: 60px;}
-section {margin-bottom: 20px; padding: 10px;}
+#menu {
+    columns: 420px 2; 
+    column-gap: 60px;}
+section {
+    margin-bottom: 20px;
+     padding: 10px;}
 
-h2 {margin-top: 0;}
+h2 {
+    margin-top: 0;}
 
 /* 
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu in uppercase
 */
+<<<<<<< HEAD
 h2 {
+=======
+menu {
+>>>>>>> 14693ee6640bc1492a7c52bcd6a466a69a28e513
     font-variant: small-caps;
     text-transform: uppercase;
 }
@@ -44,8 +53,13 @@ h2 {
         - set the font size to 16px
 */
 dt {
+<<<<<<< HEAD
     font:inline bold ;
     font-size:16px ;
+=======
+    font-size: 16px;
+    font-weight: bold ;
+>>>>>>> 14693ee6640bc1492a7c52bcd6a466a69a28e513
 }
 /* 
     Add a CSS ruleset to accomplish the following:
@@ -55,10 +69,12 @@ dt::after {
     content: ", "
 }
 
-dd {display: inline; margin: 0;}
+dd {
+    display: inline; margin: 0;}
 dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 
-.price {float: right; padding: 0 0 35px 20px;}
+.price {
+    float: right; padding: 0 0 35px 20px;}
 
 /* 
     Add a CSS ruleset targeting the footer to accomplish the following:
