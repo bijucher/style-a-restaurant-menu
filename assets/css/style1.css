@@ -37,20 +37,23 @@ h1 {
         - Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. 
 */
 #menu {
-    columns: 400px 2;
+    columns: 400px;
     column-gap: 100px;
+    column-rule: dashed rosybrown;
 }
 
 section {padding-bottom: 50px;}
-h2 {margin: 0;}
+h2 {font-variant: small-caps;
+    color: #6d4c41;
+    margin: 0;}
 
 /* 
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
-#menu {font-variant-caps: small-caps;
-           color: #6d4c41;
+dt{
+    font-weight:bold;
 }
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
@@ -59,8 +62,10 @@ h2 {margin: 0;}
 */
 #menu {font-size: 20px bold;}
 
-dd {margin: 0 0 12px 0; display: flex;}
-#details {order: 1;}
+dd {
+    margin: 0 0 12px 0; display: flex;}
+#details {
+    order: 1;}
 
 /* 
      Update the following ruleset (.price) to accomplish the following:
